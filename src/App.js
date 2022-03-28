@@ -1,4 +1,4 @@
-import react, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import './App.css';
 
 
@@ -33,7 +33,6 @@ function App() {
     setMoviesList(movies);
   }
 
-  let visibility = false;
 
   return (
     <div className="App">
