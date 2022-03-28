@@ -9,17 +9,17 @@ const Item = (props) => {
 
     return (
 
-        <li className="flex flex-row" >
-            <div className="select-none cursor-pointer flex flex-1 items-center p-4">
+        <li className="" >
+            <div className="select-none cursor-pointer flex flex-col md:flex-row lg:flex-row sm:flex-row items-center p-4 ">
                 <Avatar />
-                <div className="flex-1 pl-1 mr-16 text-left">
+                <div className="pl-1 pr-1 text-center sm:text-left md:text-left lg:text-left w-7/12">
                     <div className="font-semibold dark:text-white ">
                         <h3 className="text-lg">{props.title}</h3>
                     </div>
-                    <div className="text-gray-600 dark:text-gray-200 text-sm">
+                    <div className="text-gray-600 dark:text-gray-200 text-sm ">
                         Producer: {props.producer}
                     </div>
-                    <div className="text-gray-600 dark:text-gray-200 text-sm text-regal-orange">
+                    <div className="text-gray-600 dark:text-gray-200 text-sm text-regal-orange ">
                         Director: {props.director}
                     </div>
                 </div>
